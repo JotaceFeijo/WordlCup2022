@@ -1,6 +1,14 @@
+@import url(../Assets/css/layout.css);
+@import url(../Assets/css/variables.css);
+
 .container {
     max-width: 768px;
     border: 1px solid blue;
+
+    max-width: var(--max-width-container);
+    margin: 0 auto;
+    padding-left: var(--padding-container);
+    padding-right: var(--padding-container);
 }
 
 .banner {
@@ -8,7 +16,7 @@
     width: 100%;
 }
 
-.tablas {
+.tables {
     display: flex;
     justify-content: space-between;
     align-items: center;

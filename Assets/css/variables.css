@@ -1,0 +1,10 @@
+:root {
+    /* Official colors for QATAR 2022 */
+    --primary-theme-color: #1077C3;
+    --secondary-theme-color:  #49BCE3;
+    --primary-text-color: #56042C;
+    --primary-highlight-color: #FEC310;
+
+    --max-width-container: 512px;
+    --padding-container: 1rem;
+}
