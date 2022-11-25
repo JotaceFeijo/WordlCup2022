@@ -4,8 +4,8 @@
   --secondary-theme-color: #49bce3;
   --primary-text-color: #56042c;
   --primary-highlight-color: #fec310;
-
-  --max-width-container: 512px;
+  --primary-card-color: #fff;
+  --max-width-container: 1024px;
   --padding-container: 1rem;
   --padding-section: 1.5rem;
 }

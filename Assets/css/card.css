@@ -1,14 +1,22 @@
 .card {
-  border: 0.125rem solid var(--primary-theme-color);
-  padding: 0.1rem 0.5rem;
-  margin: 1rem 0rem;
+  border: 0.25rem solid var(--primary-highlight-color);
   border-radius: 1rem;
+  overflow: hidden;
 }
 
 .cards {
   display: grid;
   grid-template-columns: auto auto;
   column-gap: 1.5rem;
+  row-gap: 1.5rem;
+}
+
+.card__header {
+  background-color: var(--primary-text-color);
+  text-align: center;
+  padding: 1rem;
+  color: var(--primary-card-color);
+  box-shadow: 1rem;
 }
 
 .card__body {
@@ -17,7 +25,19 @@
   justify-content: center;
 }
 
+.card__footer {
+  background-color: var(--primary-text-color);
+  text-align: center;
+  padding: 1px;
+  color: var(--primary-card-color);
+}
+
 .card__score {
   padding: 0rem 0.7rem;
   font-size: 1.5rem;
+  color: var(--primary-text-color);
+}
+
+.card__text {
+  color: var(--primary-text-color);
 }
