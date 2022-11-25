@@ -1,0 +1,23 @@
+.card {
+  border: 0.125rem solid var(--primary-theme-color);
+  padding: 0.1rem 0.5rem;
+  margin: 1rem 0rem;
+  border-radius: 1rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1.5rem;
+}
+
+.card__body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.card__score {
+  padding: 0rem 0.7rem;
+  font-size: 1.5rem;
+}

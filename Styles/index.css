@@ -1,24 +1,26 @@
 @import url(../Assets/css/layout.css);
 @import url(../Assets/css/variables.css);
+@import url(../Assets/css/card.css);
+@import url(../Assets/css/utils.css);
 
 .container {
-    max-width: 768px;
-    border: 1px solid blue;
+  max-width: 768px;
+  border: 1px solid blue;
 
-    max-width: var(--max-width-container);
-    margin: 0 auto;
-    padding-left: var(--padding-container);
-    padding-right: var(--padding-container);
+  max-width: var(--max-width-container);
+  margin: 0 auto;
+  padding-left: var(--padding-container);
+  padding-right: var(--padding-container);
 }
 
 .banner {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .tables {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
