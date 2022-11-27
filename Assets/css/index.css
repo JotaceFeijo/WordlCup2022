@@ -33,6 +33,12 @@
   flex-wrap: wrap;
 }
 
+.text {
+  color: var(--primary-text-color);
+  font-size: var(--text-font-size);
+  text-align: justify;
+}
+
 .title {
   color: var(--primary-text-color);
   font-size: var(--title-font-size);
