@@ -32,3 +32,13 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
+.title {
+  color: var(--primary-text-color);
+  font-size: var(--title-font-size);
+}
+
+.subtitle {
+  color: var(--primary-text-color);
+  font-size: var(--subtitle-font-size);
+}
