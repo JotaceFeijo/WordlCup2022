@@ -1,0 +1,34 @@
+@import url(../css/modules/layout.css);
+@import url(../css/modules/variables.css);
+@import url(../css/modules/card.css);
+@import url(../css/modules/utils.css);
+@import url(../css/modules/body.css);
+@import url(../css/modules/nav.css);
+
+.container {
+  max-width: 768px;
+  border: 1px solid blue;
+
+  max-width: var(--max-width-container);
+  margin: 0 auto;
+  padding-left: var(--padding-container);
+  padding-right: var(--padding-container);
+}
+
+.body {
+  background-image: url(../imgs/qatar_wc_15.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.banner {
+  display: block;
+}
+
+.tables {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
