@@ -13,6 +13,8 @@
     background-color: var(--secondary-theme-color);
     transform: translateX(var(--translate-list-header));
     transition: transform 0.25s;
+    font-family: var(--text-font-family);
+
   }
   
   .list__link {

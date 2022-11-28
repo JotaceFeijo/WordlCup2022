@@ -33,14 +33,18 @@
   color: var(--primary-text-color);
   font-size: var(--text-font-size);
   text-align: justify;
+  font-family: var(--text-font-family);
 }
 
 .title {
   color: var(--primary-text-color);
   font-size: var(--title-font-size);
+  font-family: var(--text-font-family);
 }
 
 .subtitle {
   color: var(--primary-text-color);
   font-size: var(--subtitle-font-size);
+  font-family: var(--text-font-family);
+
 }
