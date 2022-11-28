@@ -1,0 +1,52 @@
+@import url(../css/modules/layout.css);
+@import url(../css/modules/variables.css);
+@import url(../css/modules/card.css);
+@import url(../css/modules/utils.css);
+@import url(../css/modules/body.css);
+@import url(../css/modules/nav.css);
+@import url(../css/modules/table.css);
+@import url(../css/modules/list.css);
+@import url(../css/modules/button.css);
+@import url(../css/modules/inputs.css);
+@import url(../css/modules/animation.css);
+
+.container {
+  max-width: 1024px;
+
+  max-width: var(--max-width-container);  
+  margin: 0 auto;
+  padding-left: var(--padding-container);
+  padding-right: var(--padding-container);
+  
+}
+
+.body {
+  background-image: url(../imgs/qatar_wc_15.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.banner {
+  display: block;
+}
+
+.text {
+  color: var(--primary-text-color);
+  font-size: var(--text-font-size);
+  text-align: justify;
+  font-family: var(--text-font-family);
+}
+
+.title {
+  color: var(--primary-text-color);
+  font-size: var(--title-font-size);
+  font-family: var(--text-font-family);
+}
+
+.subtitle {
+  color: var(--primary-text-color);
+  font-size: var(--subtitle-font-size);
+  font-family: var(--text-font-family);
+
+}

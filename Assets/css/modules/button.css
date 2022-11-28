@@ -1,0 +1,10 @@
+.button {
+    background-color: var(--secondary-theme-color);
+    border-radius: 1rem;
+    width: 8rem;
+    height: 3rem;
+}
+
+.button--text {
+    font-size: 16px;
+}

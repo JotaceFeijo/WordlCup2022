@@ -1,0 +1,62 @@
+.card {
+  border: 0.25rem solid var(--primary-highlight-color);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: auto;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+}
+
+.card__header {
+  background-color: var(--primary-shadow-color);
+  text-align: center;
+  padding: 1rem;
+  color: var(--primary-card-color);
+  box-shadow: 1rem;
+  font-size: var(--text-font-size);
+  font-family: var(--text-font-family);
+
+}
+
+.card__body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.card__footer {
+  /* background-color: var(--primary-text-color); */
+  text-align: center;
+  padding: 1px;
+  color: var(--primary-text-color);
+  font-size: var(--text-font-size);
+  font-family: var(--text-font-family);
+}
+
+.card__score {
+  padding: 0rem 0.7rem;
+  font-size: 1.5rem;
+  color: var(--primary-text-color);
+  font-size: var(--text-font-size);
+  font-family: var(--text-font-family);
+
+}
+
+.card__country {
+  color: var(--secondarty-text-color);
+  font-size: var(--text-font-size);
+  font-family: var(--text-font-family);
+}
+
+@media (min-width: 768px) {
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+  }
+}

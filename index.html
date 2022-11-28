@@ -6,279 +6,1057 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./Assets/ico/worldcup-icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./Styles/index.css">
+    <link rel="stylesheet" href="./Assets/css/index.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
     <title>FIFA WORLD CUP</title>
 </head>
 
-<body>
+<body class="body">
     <header class="container">
-        <nav>
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Fase de Grupos</a></li>
-                <li><a href="">Llaves</a></li>
-                <li><a href="">Contacto</a></li>
-            </ul>
+        <nav class="nav" id="header-nav">
+            <div class="container f-elements f-elements--header p-relative">
+                <a href="#home">
+                    <img src="./Assets/imgs/fifa.png" alt="" width="120" class="nav__logo ">
+                </a>
+                <a href="#header-nav" class="nav__icon nav__icon--menu">
+                    <i class="bi bi-list"></i>
+                </a>
+                <a href="#header-close" class="nav__icon nav__icon--close">
+                    <i class="bi bi-x-circle"></i>
+                </a>
+                <ul class="list list--header f-elements f-elements--center gap-md f-elements--responsive">  
+                    <li>
+                        <a href="#groupstage" class="list__link">Fase de Grupos</a>
+                    </li>
+                    <li>
+                        <a href="#calendar" class="list__link">Calendario</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="list__link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <section class="container">
-        <h1>FIFA WORLD CUP</h1>
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil itaque sed illo eius eos aliquam magnam consequatur alias repellendus quasi sequi, ducimus provident dolore expedita aliquid, consectetur facilis a quisquam!</P>
-        <img class="banner" src="./Assets/imgs/banner.jpg" alt="banner">
+    <section class="container" id="home">
+        <h1 class="title">FIFA WORLD CUP</h1>
+        <p class="text">
+            La Copa Mundial de Fútbol de la FIFA Catar 2022 (en árabe, كأس العالم لكرة القدم قطر 2022) es la vigésima segunda edición de la Copa Mundial de Fútbol masculino organizada por la FIFA. Se está desarrollando desde el 20 de noviembre al 18 de diciembre en Catar, que consiguió los derechos de organización el 2 de diciembre de 2010.​
+
+            Es la tercera vez que el torneo se disputa en el continente asiático tras la edición de 2002 jugada en Corea del Sur y Japón y la de Rusia 2018 (aunque esta última contaba con una sola sede en territorio asiático);2​ y la primera que se celebra en Asia Occidental. También por primera vez, el torneo tiene lugar en Oriente Próximo, en un país árabe y de mayoría musulmana, así como el de menor extensión territorial.3
+                        
+        </p>
+    
+        </div>
+        <div class="animation">
+          <marquee class="marquee--space" behavior="alternate" scrollamount="40">
+            <marquee class="marquee--space" behavior="alternate" direction="down" scrollamount="30">
+                <img src="./Assets/imgs/ball3.png" alt="" class="ball" width="128px">
+            </marquee>
+
+          </marquee>
+
+        </div>
     </section>
     <main class="container">
         <article>
-            <section>
-                <h2>Fase de Grupos</h2>
-                <div class="tables">
-                    <section>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th colspan="5">Grupo A</th>
-                                </tr>
-                                <tr>
-                                    <th>País</th>
-                                    <th>Pts</th>
-                                    <th>PJ</th>
-                                    <th>PE</th>
-                                    <th>PP</th>
-                                    <th>PG</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Países Bajo</td>
-                                </tr>
-                                <tr>
-                                    <td>Ecuador</td>
-                                </tr>
-                                <tr>
-                                    <td>Senegal</td>
-                                </tr>
-                                <tr>
-                                    <td>Qatar</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </section>
-                    <section>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th colspan="5">Grupo B</th>
-                                </tr>
-                                <tr>
-                                    <th>País</th>
-                                    <th>Pts</th>
-                                    <th>PJ</th>
-                                    <th>PE</th>
-                                    <th>PP</th>
-                                    <th>PG</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Inglaterra</td>
-                                </tr>
-                                <tr>
-                                    <td>Gales</td>
-                                </tr>
-                                <tr>
-                                    <td>Estados Unidos</td>
-                                </tr>
-                                <tr>
-                                    <td>Irán</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </section>
-                    <section>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th colspan="5">Grupo C</th>
-                                </tr>
-                                <tr>
-                                    <th>País</th>
-                                    <th>Pts</th>
-                                    <th>PJ</th>
-                                    <th>PE</th>
-                                    <th>PP</th>
-                                    <th>PG</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Arabia Saudita</td>
-                                </tr>
-                                <tr>
-                                    <td>Argentina</td>
-                                </tr>
-                                <tr>
-                                    <td>México</td>
-                                </tr>
-                                <tr>
-                                    <td>Polonia</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </section>
-                    <section>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th colspan="5">Grupo D</th>
-                                </tr>
-                                <tr>
-                                    <th>País</th>
-                                    <th>Pts</th>
-                                    <th>PJ</th>
-                                    <th>PE</th>
-                                    <th>PP</th>
-                                    <th>PG</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Australia</td>
-                                </tr>
-                                <tr>
-                                    <td>Dinamarca</td>
-                                </tr>
-                                <tr>
-                                    <td>Francia</td>
-                                </tr>
-                                <tr>
-                                    <td>Túnez</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </section>
-                    <section>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th colspan="5">Grupo E</th>
-                                </tr>
-                                <tr>
-                                    <th>País</th>
-                                    <th>Pts</th>
-                                    <th>PJ</th>
-                                    <th>PE</th>
-                                    <th>PP</th>
-                                    <th>PG</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Costa Rica</td>
-                                </tr>
-                                <tr>
-                                    <td>Alemania</td>
-                                </tr>
-                                <tr>
-                                    <td>Japón</td>
-                                </tr>
-                                <tr>
-                                    <td>España</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </section>
-                    <section>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th colspan="5">Grupo F</th>
-                                </tr>
-                                <tr>
-                                    <th>País</th>
-                                    <th>Pts</th>
-                                    <th>PJ</th>
-                                    <th>PE</th>
-                                    <th>PP</th>
-                                    <th>PG</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Bélgica</td>
-                                </tr>
-                                <tr>
-                                    <td>Canadá</td>
-                                </tr>
-                                <tr>
-                                    <td>Croacia</td>
-                                </tr>
-                                <tr>
-                                    <td>Marruecos</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </section>
-                    <section>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th colspan="5">Grupo G</th>
-                                </tr>
-                                <tr>
-                                    <th>País</th>
-                                    <th>Pts</th>
-                                    <th>PJ</th>
-                                    <th>PE</th>
-                                    <th>PP</th>
-                                    <th>PG</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Brasil</td>
-                                </tr>
-                                <tr>
-                                    <td>Camerún</td>
-                                </tr>
-                                <tr>
-                                    <td>Serbia</td>
-                                </tr>
-                                <tr>
-                                    <td>Suiza</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </section>
-                    <section>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th colspan="5">Grupo H</th>
-                                </tr>
-                                <tr>
-                                    <th>País</th>
-                                    <th>Pts</th>
-                                    <th>PJ</th>
-                                    <th>PE</th>
-                                    <th>PP</th>
-                                    <th>PG</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Ghana</td>
-                                </tr>
-                                <tr>
-                                    <td>Corea del Sur</td>
-                                </tr>
-                                <tr>
-                                    <td>Portugal</td>
-                                </tr>
-                                <tr>
-                                    <td>Uruguay</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </section>
+            <section id="groupstage">
+                <h2 class="title">Fase de Grupos</h2>
+                <div class="tables text">
+                    <table class="table">
+                        <thead class="table--header">
+                            <tr>
+                                <th colspan="9">Grupo A</th>
+                            </tr>
+                            <tr>
+                                <th>País</th>
+                                <th>PJ</th>
+                                <th>PG</th>
+                                <th>PE</th>
+                                <th>PP</th>
+                                <th>GA</th>
+                                <th>GC</th>
+                                <th>GD</th>
+                                <th>Pts</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Paises Bajos</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Ecuador</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Senegal</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Qatar</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table">
+                        <thead class="table--header">
+                            <tr>
+                                <th colspan="9">Grupo B</th>
+                            </tr>
+                            <tr>
+                                <th>País</th>
+                                <th>PJ</th>
+                                <th>PG</th>
+                                <th>PE</th>
+                                <th>PP</th>
+                                <th>GA</th>
+                                <th>GC</th>
+                                <th>GD</th>
+                                <th>Pts</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Inglaterra</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Gales</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Estados Unidos</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Irán</td>  <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table">
+                        <thead class="table--header">
+                            <tr>
+                                <th colspan="9">Grupo C</th>
+                            </tr>
+                            <tr>
+                                <th>País</th>
+                                <th>PJ</th>
+                                <th>PG</th>
+                                <th>PE</th>
+                                <th>PP</th>
+                                <th>GA</th>
+                                <th>GC</th>
+                                <th>GD</th>
+                                <th>Pts</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Arabia Saudita</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Argentina</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>México</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Polonia</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table">
+                        <thead class="table--header">
+                            <tr>
+                                <th colspan="9">Grupo D</th>
+                            </tr>
+                            <tr>
+                                <th>País</th>
+                                <th>PJ</th>
+                                <th>PG</th>
+                                <th>PE</th>
+                                <th>PP</th>
+                                <th>GA</th>
+                                <th>GC</th>
+                                <th>GD</th>
+                                <th>Pts</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Australia</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Dinamarca</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Francia</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Túnez</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table">
+                        <thead class="table--header">
+                            <tr>
+                                <th colspan="9">Grupo E</th>
+                            </tr>
+                            <tr>
+                                <th>País</th>
+                                <th>PJ</th>
+                                <th>PG</th>
+                                <th>PE</th>
+                                <th>PP</th>
+                                <th>GA</th>
+                                <th>GC</th>
+                                <th>GD</th>
+                                <th>Pts</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Costa Rica</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Alemania</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Japón</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>España</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table">
+                        <thead class="table--header">
+                            <tr>
+                                <th colspan="9">Grupo F</th>
+                            </tr>
+                            <tr>
+                                <th>País</th>
+                                <th>PJ</th>
+                                <th>PG</th>
+                                <th>PE</th>
+                                <th>PP</th>
+                                <th>GA</th>
+                                <th>GC</th>
+                                <th>GD</th>
+                                <th>Pts</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Bélgica</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Canadá</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Croacia</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Marruecos</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table">
+                        <thead class="table--header">
+                            <tr>
+                                <th colspan="9">Grupo G</th>
+                            </tr>
+                            <tr>
+                                <th>País</th>
+                                <th>PJ</th>
+                                <th>PG</th>
+                                <th>PE</th>
+                                <th>PP</th>
+                                <th>GA</th>
+                                <th>GC</th>
+                                <th>GD</th>
+                                <th>Pts</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Brasil</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Camerún</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Serbia</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Suiza</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>                    
+                    <table class="table">
+                        <thead class="table--header">
+                            <tr>
+                                <th colspan="9">Grupo H</th>
+                            </tr>
+                            <tr>
+                                <th>País</th>
+                                <th>PJ</th>
+                                <th>PG</th>
+                                <th>PE</th>
+                                <th>PP</th>
+                                <th>GA</th>
+                                <th>GC</th>
+                                <th>GD</th>
+                                <th>Pts</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ghana</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Corea del Sur</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Portugal</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Uruguay</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="calendar">
+                <h2 class="title">Calendario</h2>
+                <h3 class="subtitle"> Domingo 20 de Noviembre </h3>
+
+                <div class="cards">
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo A </h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/qatar.svg" width="56" alt="">
+                                <p class="card__country ">Qatar</p>
+                            </div>
+                            <p class="card__score">0</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">2</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/ecuador.svg" width="56" alt="">
+                                <p class="card__country">Ecuador</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                </div>
+                <h3 class="subtitle"> Lunes 21 de Noviembre </h3>
+
+                <div class="cards">
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo B </h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/england.svg" width="56" alt="">
+                                <p class="card__country">Inglaterra</p>
+                            </div>
+                            <p class="card__score">6</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">2</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/iran.svg" width="56" alt="">
+                                <p class="card__country">Iran</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo A </h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/senegal.svg" width="56" alt="">
+                                <p class="card__country">Senegal</p>
+                            </div>
+                            <p class="card__score">0</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">2</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/netherlands.svg" width="56" alt="">
+                                <p class="card__country">Paises Bajos</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo B </h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/qatar.svg" width="56" alt="">
+                                <p class="card__country">Estados Unidos</p>
+                            </div>
+                            <p class="card__score">1</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">1</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/ecuador.svg" width="56" alt="">
+                                <p class="card__country">Wales</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                </div>
+
+                <h3 class="subtitle"> Martes 22 de Noviembre </h3>
+
+                <div class="cards">
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo C </h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/argentina.svg" width="56" alt="">
+                                <p class="card__country">Argentina</p>
+                            </div>
+                            <p class="card__score">1</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">2</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/saudiarabia.svg" width="56" alt="">
+                                <p class="card__country">Arabia Saudita</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo D</h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/denmark.svg" width="56" alt="">
+                                <p class="card__country">Dinamarca</p>
+                            </div>
+                            <p class="card__score">0</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">0</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/tunisia.svg" width="56" alt="">
+                                <p class="card__country">Tunisia</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo C </h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/mexico.svg" width="56" alt="">
+                                <p class="card__country">Mexico</p>
+                            </div>
+                            <p class="card__score">0</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">0</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/poland.svg" width="56" alt="">
+                                <p class="card__country">Polonia</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo D </h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/france.svg" width="56" alt="">
+                                <p class="card__country">Francia</p>
+                            </div>
+                            <p class="card__score">4</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">1</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/australia.svg" width="56" alt="">
+                                <p class="card__country">Australia</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                </div>
+
+                <h3 class="subtitle"> Miercoles 23 de Noviembre </h3>
+
+                <div class="cards">
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo F </h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/morocco.svg" width="56" alt="">
+                                <p class="card__country">Marruecos</p>
+                            </div>
+                            <p class="card__score">0</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">0</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/croatia.svg" width="56" alt="">
+                                <p class="card__country">Croacia</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo E</h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/denmark.svg" width="56" alt="">
+                                <p class="card__country">Dinamarca</p>
+                            </div>
+                            <p class="card__score">1</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">2</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/tunisia.svg" width="56" alt="">
+                                <p class="card__country">Tunisia</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo E </h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/spain.svg" width="56" alt="">
+                                <p class="card__country">Espana</p>
+                            </div>
+                            <p class="card__score">7</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">0</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/costarica.svg" width="56" alt="">
+                                <p class="card__country">Costa Rica</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo F </h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/belgium.svg" width="56" alt="">
+                                <p class="card__country">Belgica</p>
+                            </div>
+                            <p class="card__score">1</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">0</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/canada.svg" width="56" alt="">
+                                <p class="card__country">Canada</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                </div>
+
+                <h3 class="subtitle"> Jueves 24 de Noviembre </h3>
+
+                <div class="cards">
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo G </h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/switzerland.svg" width="56" alt="">
+                                <p class="card__country">Suiza</p>
+                            </div>
+                            <p class="card__score">1</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">0</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/cameroon.svg" width="56" alt="">
+                                <p class="card__country">Camerun</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo H</h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/uruguay.svg" width="56" alt="">
+                                <p class="card__country">Uruguay</p>
+                            </div>
+                            <p class="card__score">0</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">0</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/southkorea.svg" width="56" alt="">
+                                <p class="card__country">Corea del Sur</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo H </h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/portugal.svg" width="56" alt="">
+                                <p class="card__country">Portugal</p>
+                            </div>
+                            <p class="card__score">3</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">2</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/ghana.svg" width="56" alt="">
+                                <p class="card__country">Ghana</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo G </h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/brazil.svg" width="56" alt="">
+                                <p class="card__country">Brasil</p>
+                            </div>
+                            <p class="card__score">2</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">0</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/serbia.svg" width="56" alt="">
+                                <p class="card__country">Serbia</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                </div>
+
+                <h3 class="subtitle"> Viernes 25 de Noviembre </h3>
+
+                <div class="cards">
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo B </h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/wales.svg" width="56" alt="">
+                                <p class="card__country">Wales</p>
+                            </div>
+                            <p class="card__score">0</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">2</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/iran.svg" width="56" alt="">
+                                <p class="card__country">Iran</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo A</h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/qatar.svg" width="56" alt="">
+                                <p class="card__country">Qatar</p>
+                            </div>
+                            <p class="card__score">1</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">3</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/senegal.svg" width="56" alt="">
+                                <p class="card__country">Senegal</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo A </h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/netherlands.svg" width="56" alt="">
+                                <p class="card__country">Paises Bajos</p>
+                            </div>
+                            <p class="card__score">1</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">1</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/ecuador.svg" width="56" alt="">
+                                <p class="card__country">Ecuador</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header class="card__header">
+                            <h4> Fase de Grupos - Grupo B </h4>
+                        </header>
+                        <div class="card__body">
+                            <div>
+                                <img src="./Assets/imgs/countries/england.svg" width="56" alt="">
+                                <p class="card__country">Inglaterra</p>
+                            </div>
+                            <p class="card__score">0</p>
+                            <p class="card__score">-</p>
+                            <p class="card__score">0</p>
+                            <div>
+                                <img src="./Assets/imgs/countries/unitedstates.svg" width="56" alt="">
+                                <p class="card__country">Estados Unidos</p>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <h4>Partido finalizado</h4>
+                        </footer>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" >
+                <h2 class="title">Contacto</h2>
+                <div class="f-elements">
+                    <form class="form text" ction="mailto:gegarciam95@gmail.com" enctype="text/plain">
+                        <div>
+                            <label>Nombre:</label>
+                            <input class="input--field" type="text" >
+                        </div>
+                        <div>
+                            <label>Correo:</label>
+                            <input class="input--field" type="text" >
+                        </div>
+                        <div>
+                            <label>Mensaje:</label>
+                        </div>
+                        <div>
+                            <textarea type="text" class="input--field" rows="7" ></textarea>
+                        </div>
+                        <div class="f-elements">
+                            <input class="button button--text" type="submit" value="Enviar Mensaje">
+                        </div>
+                    </form>
                 </div>
             </section>
         </article>

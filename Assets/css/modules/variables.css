@@ -1,0 +1,23 @@
+:root {
+  /* Official colors for QATAR 2022 */
+  --primary-theme-color: #1077c3;
+  --secondary-theme-color: #49bce3;
+  --secondary-shadow-color: #49bce34d;
+
+  /* --primary-text-color: #56042c; */
+  --primary-text-color: #fff;
+  --secondarty-text-color: #000;
+
+  --primary-highlight-color: #fec310;
+  --primary-shadow-color: #fec21027;
+
+  --primary-card-color: #fff;
+  --max-width-container: 1024px;
+  --padding-container: 1rem;
+  --padding-section: 1.5rem;
+  --text-font-size: 1.5rem;
+  --subtitle-font-size: 2rem;
+  --title-font-size: 3rem;
+  --text-font-family:'Ubuntu', sans-serif;
+
+}

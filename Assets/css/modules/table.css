@@ -1,0 +1,38 @@
+.table {
+    border-radius: 1rem;
+    border-color: red;
+    border: 0.25rem solid var(--primary-highlight-color);
+    width: 100%;
+
+}
+
+.table--header {
+    background-color: var(--primary-shadow-color);
+    text-align: center;
+    padding: 1rem;
+    color: var(--primary-card-color);
+    box-shadow: 1rem;
+    font-size: var(--text-font-size);
+}
+
+.tables {
+    align-items: center;
+    flex-wrap: wrap;
+
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .tables {
+        align-items: center;
+        flex-wrap: wrap;
+    
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 1.5rem;
+        row-gap: 1.5rem;
+      }
+  }
