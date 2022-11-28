@@ -8,6 +8,7 @@
 @import url(../css/modules/list.css);
 @import url(../css/modules/button.css);
 @import url(../css/modules/inputs.css);
+@import url(../css/modules/animation.css);
 
 .container {
   max-width: 768px;
