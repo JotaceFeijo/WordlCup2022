@@ -4,12 +4,15 @@
 @import url(../css/modules/utils.css);
 @import url(../css/modules/body.css);
 @import url(../css/modules/nav.css);
+@import url(../css/modules/table.css);
+@import url(../css/modules/list.css);
+@import url(../css/modules/button.css);
+@import url(../css/modules/inputs.css);
 
 .container {
   max-width: 768px;
-  border: 1px solid blue;
 
-  max-width: var(--max-width-container);
+  max-width: var(--max-width-container);  
   margin: 0 auto;
   padding-left: var(--padding-container);
   padding-right: var(--padding-container);
@@ -24,13 +27,6 @@
 
 .banner {
   display: block;
-}
-
-.tables {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
 .text {
