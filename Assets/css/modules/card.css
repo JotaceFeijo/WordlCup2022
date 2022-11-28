@@ -6,7 +6,7 @@
 
 .cards {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   column-gap: 1.5rem;
   row-gap: 1.5rem;
 }
@@ -50,4 +50,13 @@
   color: var(--secondarty-text-color);
   font-size: var(--text-font-size);
   font-family: var(--text-font-family);
+}
+
+@media (min-width: 768px) {
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+  }
 }
